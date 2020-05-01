@@ -61,15 +61,9 @@
 }
 
 #pStats {
-    margin-top: 20px;
     position: relative;
-    top: 240px;
-    height: 140px;
-    overflow: hidden;
-}
-
-.canvasjs-chart-credit {
-    color: black;
+    top: 200px;
+    height: 200px;
 }
 
 

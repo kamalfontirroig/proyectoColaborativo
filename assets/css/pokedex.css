@@ -1,0 +1,222 @@
+#solo_pruebas {
+    color: rgb(199, 199, 0);
+}
+
+.pokedex {
+    height: 100vh;
+    /* border: 1px solid red; */
+    position: relative;
+    /*text-align: center;
+    /*  background-image: url('../img/pokedex-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 600px; */
+    background-color: #D6D6D6;
+    z-index: 1;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+}
+
+
+/* #pokedex-img {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+} */
+
+* .texto {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: smaller;
+}
+
+.texto h3 {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 16px;
+}
+
+.pantalla {
+    /* border: 1px solid cyan; */
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* //PANTALLAPRINCIPAL */
+
+.pantalla-principal {
+    top: 117px;
+    left: 50px;
+    width: 207px;
+    height: 398px;
+    z-index: 0;
+}
+
+#loading-img {
+    position: absolute;
+    top: 350px;
+    left: 160px;
+}
+
+#pStats {
+    margin-top: 20px;
+    position: relative;
+    top: 240px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.canvasjs-chart-credit {
+    color: black;
+}
+
+
+/* //END PANTALLA PRINCIPAL */
+
+
+/* PANTALLA DE BUSQUEDA */
+
+.pantalla-busqueda,
+.busqueda {
+    margin: 0;
+    top: 178px;
+    left: 345px;
+    width: 208px;
+    height: 95px;
+}
+
+#encontrado-mensaje {
+    background-color: black;
+    left: 358px;
+}
+
+.mensaje {
+    top: 215px;
+    left: 750px;
+    width: 190px;
+    height: 20px;
+    color: green;
+}
+
+.controles {
+    z-index: 1;
+}
+
+#enter {
+    display: inline;
+    position: absolute;
+    top: 303px;
+    left: -1px;
+    width: 89px;
+    height: 41px;
+}
+
+input:focus {
+    /* estos son para mantener el color negro del placeholder del formulario*/
+    background-color: black;
+    font-family: 'Press Start 2P';
+    font-size: small;
+    text-align: center;
+    color: white;
+    border-color: black;
+}
+
+input {
+    background-color: black;
+    font-family: 'Press Start 2P';
+    font-size: small;
+    text-align: center;
+    color: white;
+    border-color: black;
+}
+
+
+/* END PANTALLA BUSQUEDA */
+
+
+/* DIV DE POKEMONES COINCIDENCIA */
+
+#infoBox {
+    position: absolute;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    top: 185px;
+    left: 600px;
+    height: 200px;
+    z-index: 2;
+}
+
+#infoBox p {
+    display: none;
+    font-size: 10px;
+}
+
+#pokemonList {
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+
+/* END COINCIDENCIA */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+h3 .red {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.b-green {
+    border: 1px solid green;
+}
+
+.b-red {
+    border: 1px solid red;
+}
+
+.b-cyan {
+    border: 1px solid cyan;
+}
+
+.b-yellow {
+    border: 1px solid yellow;
+}
+
+.b-blue {
+    border: 1px solid blue;
+}
+
+.al-frente {
+    z-index: 10;
+}
+
+.al-fondo {
+    z-index: -5
+}
+
+.zi-3 {
+    z-index: 3;
+}
+
+.zi-2 {
+    z-index: 2;
+}
+
+.zi-1 {
+    z-index: 1;
+}
+
+.zi-background {
+    z-index: -10;
+}
